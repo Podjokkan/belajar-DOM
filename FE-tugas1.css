@@ -97,3 +97,7 @@ form div{
 #submit-button:active{
   transform: scale(1.02);
 }
+
+input{
+  width: 100%;
+}
