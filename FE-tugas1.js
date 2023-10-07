@@ -5,11 +5,11 @@ function myFunction(){
 
   if(pass.type === 'password'){
     pass.type = "text";
-    eye.style.display = "block";
-    eyeSlash.style.display = "none";
+    eye.style.display = "none";
+    eyeSlash.style.display = "block";
   } else{
     pass.type = "password";
-    eye.style.display = "none";
-    eyeSlash.style.display = "block"
+    eye.style.display = "block";
+    eyeSlash.style.display = "none"
   }
 }
